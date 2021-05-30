@@ -96,12 +96,12 @@ body{
   font-size:1rem;
 }
 .info>div::before{
-  content:attr(value_);
+  content:attr(v);
   font-weight:700;
   margin:0 0 .3rem;
 }
 .info>div::after{
-  content:attr(name_);
+  content:attr(t);
   font-weight:400;
   font-size:.5rem;
   letter-spacing: .3ch;
