@@ -17,14 +17,14 @@ body{
   background-position: -18rem -15rem, calc(100vw - 10rem) calc(100vh - 15rem);
   display:flex;
   flex-direction:column;
-  justify-content:space-ivenly;
+  justify-content:space-evenly;
   align-items:center;
 }
 .card{
   max-width:400px;
   min-width:320px;
   width:80%;
-  margin:20px auto;
+  margin:0 auto 20px;
   overflow: hidden;
   border-radius:20px;
   box-shadow:0 20px 80px hsl(229, 23%, 23%);
