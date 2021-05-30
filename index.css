@@ -18,13 +18,13 @@ body{
   display:flex;
   flex-direction:column;
   justify-content:space-ivenly;
-  align-content:center;
+  align-items:center;
 }
 .card{
   max-width:400px;
   min-width:320px;
   width:80%;
-  margin:0;
+  margin:20px auto;
   overflow: hidden;
   border-radius:20px;
   box-shadow:0 20px 80px hsl(229, 23%, 23%);
