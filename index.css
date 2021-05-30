@@ -27,7 +27,7 @@ body{
   margin:0 auto 20px;
   overflow: hidden;
   border-radius:20px;
-  box-shadow:0 20px 80px hsl(229, 23%, 23%);
+  box-shadow:0 20px 80px hsl(229, 23%, 43%);
   background:#fff;
 }
 .cover{
@@ -85,7 +85,7 @@ body{
   flex-direction:row;
   justify-content:center;
   padding:1.5rem 0;
-  border-top:solid 1px hsl(227, 10%, 90%);
+  border-top:solid 1px hsl(227, 10%, 80%);
 }
 .info>div{
   width:100%;
