@@ -15,14 +15,16 @@ body{
   background-repeat: no-repeat,no-repeat;
   background-size:30rem auto, 30rem auto;
   background-position: -18rem -15rem, calc(100vw - 10rem) calc(100vh - 15rem);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-ivenly;
+  align-content:center;
 }
 .card{
-  position:absolute;
-  transform:translate(-50%,-50%);
   max-width:400px;
   min-width:320px;
   width:80%;
-  margin:50vh 0 0 50vw;
+  margin:0;
   overflow: hidden;
   border-radius:20px;
   box-shadow:0 20px 80px hsl(229, 23%, 23%);
