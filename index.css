@@ -95,13 +95,13 @@ body{
   align-items:center;
   font-size:1rem;
 }
-.info>div::before{
+.info>div>span{
   content:attr(v);
   font-weight:700;
   margin:0 0 .3rem;
 }
 .info>div::after{
-  content:attr(t);
+  content:attr(name);
   font-weight:400;
   font-size:.5rem;
   letter-spacing: .3ch;
